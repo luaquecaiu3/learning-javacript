@@ -21,12 +21,12 @@ $(function(){
 
 //my functions
 $(function(){
-  var x;
+/*  var x;
   var y = null;
   var z = 5;
 
-  var w = 'hello';
-  
+  var w = 'hello';*/
+
 document.getElementById("content").innerHTML = "Hello World";​
 /*
   document.querySelector('.content').innerHTML = 'x: ' + x + ' typeof: ' + typeof x
