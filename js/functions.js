@@ -21,19 +21,19 @@ $(function(){
 
 //my functions
 $(function(){
-/*  var x;
+alert();
+document.getElementById("content").innerHTML = "Hello World";​
+  /*
+  var x;
   var y = null;
   var z = 5;
+  var w = 'hello';
 
-  var w = 'hello';*/
-
-document.getElementById("content").innerHTML = "Hello World";​
-/*
-  document.querySelector('.content').innerHTML = 'x: ' + x + ' typeof: ' + typeof x
+  alert('x: ' + x + ' typeof: ' + typeof x
   + '\ny: ' + y + ' typeof: ' + typeof y
   + '\nz: ' + z + ' typeof: ' + typeof z
   + '\nw: ' + w + ' typeof: ' + typeof w
-;*/
+);*/
 
 
 });
