@@ -28,11 +28,40 @@ $(function(){
   var z = 5;
   var w = 'hello';
 
-  var print = ('x: ' + x + ' typeof: ' + typeof x
+function day_of_the_week(day){
+  switch (day) {
+    case 1: return 'domingo'; break;
+    case 2: return 'segunda'; break;
+    case 3: return 'terça'; break;
+    case 4: return 'quarta'; break;
+    case 5: return 'quinta'; break;
+    case 6: return 'sexta'; break;
+    case 7: return 'sábado'; break;
+    default: return 'invalid day';
+  }
+}
+
+function test_while(value){
+  while (value <= 10) {
+    return value;
+    value++;
+  }
+}
+
+  var print =
+  'x: ' + x + ' typeof: ' + typeof x
   + '<br>y: ' + y + ' typeof: ' + typeof y
   + '<br>z: ' + z + ' typeof: ' + typeof z
   + '<br>w: ' + w + ' typeof: ' + typeof w
-);
+  + '<br>' + ('aa' < 'ab')
+  + '<br>' + (x == y)
+  + '<br>' + (x === y)
+  + '<br>' + day_of_the_week(0)
+  + '<br>' + (z % 5 ==0)
+  + '<br>' + (z % 2 ==0)
+  + '<br>' + (z % 2 !=0)
+  + '<br>' + test_while(z)
+;
 
 document.querySelector(".content").innerHTML = print;
 
