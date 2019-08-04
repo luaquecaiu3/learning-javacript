@@ -1,0 +1,62 @@
+/* ======================================================= */
+/* -- CSS Defaults -- */
+/* ======================================================= */
+
+/* -- maxwidth -- */
+.maxwidth1 { max-width:1100px; }
+.maxwidth2 { max-width:991px; }
+.maxwidth3 { max-width:767px; }
+.maxwidth4 { max-width:575px; }
+.maxwidth1, .maxwidth2, .maxwidth3, .maxwidth4,  { margin:0 auto; }
+
+/* ======================================================= */
+/* -- CSS Website -- */
+/* ======================================================= */
+body { background-color:white; font:400 14px 'Open Sans', Arial; color:#444444; }
+
+div{
+	width: 50%;
+	border: 1px green solid;
+	min-height: 500px; 
+}
+
+
+
+
+
+
+
+/* ======================================================= */
+/* -- CSS Responsivo -- */
+/* ======================================================= */
+@media (max-width:1600px) {
+
+}
+
+@media (max-width:1280px) {
+
+}
+
+@media (max-width:1140px) {
+
+}
+
+@media (max-width:991px) {
+
+}
+
+@media (max-width:767px) {
+
+}
+
+@media (max-width:575px) {
+
+}
+
+@media (max-width:460px) {
+
+}
+
+@media (max-width:350px) {
+
+}
